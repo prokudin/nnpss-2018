@@ -136,8 +136,8 @@ avkg::usage="avkg helicity \!\(\*SubscriptBox[\(g\), \(1\)]\)TMD width";
 ?avkg;
 avks::usage="avks \!\(\*SubsuperscriptBox[\(f\), \(1  T\), \(\[UpTee]\)]\) (Sivers function) TMD width";
 ?avks;
-avkh::usage="avkh \!\(\*SubsuperscriptBox[\(H\), \(1\), \(\[UpTee]\)]\) (Collins fragmentation function) TMD width";
-?avkh;
+avph::usage="avph \!\(\*SubsuperscriptBox[\(H\), \(1\), \(\[UpTee]\)]\) (Collins fragmentation function) TMD width";
+?avph;
 Begin["`Private`"];
 DSShplus= ReadList["./Grids/fragmentationpiplus.dat",Real,RecordLists-> True];
 DSShminus= ReadList["./Grids/fragmentationpiminus.dat",Real,RecordLists-> True];
@@ -256,7 +256,7 @@ alphaC=1.06;
 betaC=0.07;
 Mh = 0.135;
 
-avkh = avp MC^2/(avp+MC^2); (*collins FF width*)
+avph = avp MC^2/(avp+MC^2); (*collins FF width*)
 
 (*Collins function with DGLAP Evolution*)
 

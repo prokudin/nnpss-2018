@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    186602,       3664]
-NotebookOptionsPosition[    174617,       3350]
-NotebookOutlinePosition[    180922,       3512]
-CellTagsIndexPosition[    180326,       3496]
+NotebookDataLength[    186255,       3657]
+NotebookOptionsPosition[    174923,       3353]
+NotebookOutlinePosition[    180690,       3505]
+CellTagsIndexPosition[    180338,       3494]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -21,18 +21,19 @@ Notebook[{
 
 Cell[CellGroupData[{
 Cell["\<\
-\[OpenCurlyDoubleQuote]Semi-Inclusive Deep Inelastic Scattering in \
-Wandzura-Wilczek-type approximation\[CloseCurlyDoubleQuote] S. Bastami, H. \
-Avakian, A. V. Efremov, A. Kotzinian, B. U. Musch, B. Parsamyan, A. Prokudin, \
-M. Schlegel, G. Schnell, P. Schweitzer, K. Tezgin, W. Vogelsang
-
+\[OpenCurlyDoubleQuote]Sem\[AliasDelimiter]\[AliasDelimiter]i-Inclusive Deep \
+Inelastic Scattering in Wandzura-Wilczek-type approximation\
+\[CloseCurlyDoubleQuote] S. Bastami, H. Avakian, A. V. Efremov, A. Kotzinian, \
+B. U. Musch, B. Parsamyan, A. Prokudin, M. Schlegel, G. Schnell, P. \
+Schweitzer, K. Tezgin, W. Vogelsang
+\[AliasDelimiter]
 author : Alexei Prokudin, Kemal Tezgin
 email : prokudin@jlab.org\
 \>", "Title",
  CellChangeTimes->{{3.735924509362856*^9, 3.735924531504013*^9}, {
-   3.7359249478408737`*^9, 3.735924968322012*^9}, 
-   3.7359250058613586`*^9},ExpressionUUID->"26c4b983-39ae-4340-a8d9-\
-58ece07fc0a2"],
+   3.7359249478408737`*^9, 3.735924968322012*^9}, 3.7359250058613586`*^9, {
+   3.739208392506456*^9, 3.739208404751738*^9}},
+ ExpressionUUID -> "26c4b983-39ae-4340-a8d9-58ece07fc0a2"],
 
 Cell[CellGroupData[{
 
@@ -55,7 +56,7 @@ Cell[BoxData["\<\"/Users/avp5627/GIT/nnpss-2018\"\>"], "Output",
    3.736591084036303*^9, 3.736595971223052*^9, 3.7365969162739677`*^9, 
    3.73661063059361*^9, 3.7368783967039537`*^9, 3.737133447885901*^9, 
    3.737219828989541*^9, 3.7372199045375147`*^9, 3.738926311177074*^9, 
-   3.739117777550004*^9},
+   3.739117777550004*^9, 3.739208421166424*^9},
  ExpressionUUID -> "cdc0f843-65ed-4a71-96cb-575638ea1f54"]
 }, Open  ]],
 
@@ -82,7 +83,7 @@ WW approximation and SIDIS structure functions\"\>"], "Print",
    3.737219695660479*^9, 3.737219774069871*^9, 3.737219829085348*^9, 
    3.7372199046518707`*^9, 3.738926313969696*^9, {3.738927315239772*^9, 
    3.738927344628806*^9}, 3.7389273793006783`*^9, 3.739008371143661*^9, 
-   3.739117777654303*^9},
+   3.739117777654303*^9, 3.739208421257826*^9},
  ExpressionUUID -> "6f9e2082-1bf7-45e1-969b-3c86786fb4d3"],
 
 Cell[BoxData["\<\"Copyright: Alexei Prokudin (PSU Berks), Kemal Tezgin \
@@ -98,7 +99,7 @@ Cell[BoxData["\<\"Copyright: Alexei Prokudin (PSU Berks), Kemal Tezgin \
    3.737219695660479*^9, 3.737219774069871*^9, 3.737219829085348*^9, 
    3.7372199046518707`*^9, 3.738926313969696*^9, {3.738927315239772*^9, 
    3.738927344628806*^9}, 3.7389273793006783`*^9, 3.739008371143661*^9, 
-   3.739117777663518*^9},
+   3.739117777654303*^9, 3.739208421262928*^9},
  ExpressionUUID -> "6f9e2082-1bf7-45e1-969b-3c86786fb4d3"],
 
 Cell[BoxData["\<\"e-mail: prokudin@jlab.org, kemal.tezgin@uconn.edu\"\>"], \
@@ -114,7 +115,7 @@ Cell[BoxData["\<\"e-mail: prokudin@jlab.org, kemal.tezgin@uconn.edu\"\>"], \
    3.737219695660479*^9, 3.737219774069871*^9, 3.737219829085348*^9, 
    3.7372199046518707`*^9, 3.738926313969696*^9, {3.738927315239772*^9, 
    3.738927344628806*^9}, 3.7389273793006783`*^9, 3.739008371143661*^9, 
-   3.739117777675159*^9},
+   3.739117777654303*^9, 3.7392084212691193`*^9},
  ExpressionUUID -> "6f9e2082-1bf7-45e1-969b-3c86786fb4d3"],
 
 Cell[BoxData["\<\"https://github.com/prokudin/WW-SIDIS\"\>"], "Print",
@@ -129,7 +130,7 @@ Cell[BoxData["\<\"https://github.com/prokudin/WW-SIDIS\"\>"], "Print",
    3.737219695660479*^9, 3.737219774069871*^9, 3.737219829085348*^9, 
    3.7372199046518707`*^9, 3.738926313969696*^9, {3.738927315239772*^9, 
    3.738927344628806*^9}, 3.7389273793006783`*^9, 3.739008371143661*^9, 
-   3.739117777686479*^9},
+   3.739117777654303*^9, 3.739208421275309*^9},
  ExpressionUUID -> "6f9e2082-1bf7-45e1-969b-3c86786fb4d3"],
 
 Cell[BoxData[
@@ -152,7 +153,7 @@ https://github.com/prokudin/WW-SIDIS\"\>",
    3.737219695660479*^9, 3.737219774069871*^9, 3.737219829085348*^9, 
    3.7372199046518707`*^9, 3.738926313969696*^9, {3.738927315239772*^9, 
    3.738927344628806*^9}, 3.7389273793006783`*^9, 3.739008371143661*^9, 
-   3.739117777697995*^9},
+   3.739117777654303*^9, 3.739208421385804*^9},
  ExpressionUUID -> "6f9e2082-1bf7-45e1-969b-3c86786fb4d3"],
 
 Cell[BoxData["\<\"____________________________________________________________\
@@ -168,7 +169,7 @@ _______________\"\>"], "Print",
    3.737219695660479*^9, 3.737219774069871*^9, 3.737219829085348*^9, 
    3.7372199046518707`*^9, 3.738926313969696*^9, {3.738927315239772*^9, 
    3.738927344628806*^9}, 3.7389273793006783`*^9, 3.739008371143661*^9, 
-   3.739117777711361*^9},
+   3.739117777654303*^9, 3.739208421393137*^9},
  ExpressionUUID -> "6f9e2082-1bf7-45e1-969b-3c86786fb4d3"],
 
 Cell[BoxData["\<\"Contains the following functions: \"\>"], "Print",
@@ -183,366 +184,366 @@ Cell[BoxData["\<\"Contains the following functions: \"\>"], "Print",
    3.737219695660479*^9, 3.737219774069871*^9, 3.737219829085348*^9, 
    3.7372199046518707`*^9, 3.738926313969696*^9, {3.738927315239772*^9, 
    3.738927344628806*^9}, 3.7389273793006783`*^9, 3.739008371143661*^9, 
-   3.739117777723143*^9},
+   3.739117777654303*^9, 3.7392084213994627`*^9},
  ExpressionUUID -> "6f9e2082-1bf7-45e1-969b-3c86786fb4d3"],
 
 Cell[BoxData[
  StyleBox["\<\"f1u[x_,Q2_ ] is the unpolarised collinear PDF for u quark, \
 bibitem{Martin:2009iq}\"\>", "MSG"]], "Print", "PrintUsage",
- CellChangeTimes->{3.739117777859647*^9},
- CellTags->"Info3933739103377-8444184"],
+ CellChangeTimes->{3.7392084215803843`*^9},
+ CellTags->"Info23739194021-5256903"],
 
 Cell[BoxData[
  StyleBox["\<\"f1d[x_,Q2_ ] is the unpolarised collinear PDF for d quark, \
 bibitem{Martin:2009iq}\"\>", "MSG"]], "Print", "PrintUsage",
- CellChangeTimes->{3.739117777971833*^9},
- CellTags->"Info3933739103377-8444184"],
+ CellChangeTimes->{3.7392084216809673`*^9},
+ CellTags->"Info23739194021-5256903"],
 
 Cell[BoxData[
  StyleBox["\<\"f1ubar[x_,Q2_ ] is the unpolarised collinear PDF for ubar \
 quark, bibitem{Martin:2009iq}\"\>", "MSG"]], "Print", "PrintUsage",
- CellChangeTimes->{3.739117778090219*^9},
- CellTags->"Info3933739103378-8444184"],
+ CellChangeTimes->{3.739208421769137*^9},
+ CellTags->"Info23739194021-5256903"],
 
 Cell[BoxData[
  StyleBox["\<\"f1dbar[x_,Q2_ ] is the unpolarised collinear PDF for dbar \
 quark, bibitem{Martin:2009iq}\"\>", "MSG"]], "Print", "PrintUsage",
- CellChangeTimes->{3.739117778208415*^9},
- CellTags->"Info3933739103378-8444184"],
+ CellChangeTimes->{3.739208421859253*^9},
+ CellTags->"Info23739194021-5256903"],
 
 Cell[BoxData[
  StyleBox["\<\"f1s[x_,Q2_ ] is the unpolarised collinear PDF for s quark, \
 bibitem{Martin:2009iq}\"\>", "MSG"]], "Print", "PrintUsage",
- CellChangeTimes->{3.739117778295126*^9},
- CellTags->"Info3933739103378-8444184"],
+ CellChangeTimes->{3.739208421950193*^9},
+ CellTags->"Info23739194021-5256903"],
 
 Cell[BoxData[
  StyleBox["\<\"f1sbar[x_,Q2_ ] is the unpolarised collinear PDF for sbar \
 quark, bibitem{Martin:2009iq}\"\>", "MSG"]], "Print", "PrintUsage",
- CellChangeTimes->{3.739117778403027*^9},
- CellTags->"Info3933739103378-8444184"],
+ CellChangeTimes->{3.739208422044826*^9},
+ CellTags->"Info23739194021-5256903"],
 
 Cell[BoxData[
  StyleBox["\<\"D1u[pion_, z_, Q2_ ] is the unpolarised collinear FF for u \
 quark, pion = pi+ or pi-, bibitem{deFlorian:2007aj}\"\>", "MSG"]], "Print", \
 "PrintUsage",
- CellChangeTimes->{3.7391177785145884`*^9},
- CellTags->"Info3933739103378-8444184"],
+ CellChangeTimes->{3.7392084221404552`*^9},
+ CellTags->"Info23739194022-5256903"],
 
 Cell[BoxData[
  StyleBox["\<\"D1d[pion_, z_, Q2_ ] is the unpolarised collinear FF for dbar \
 quark, pion = pi+ or pi-, bibitem{deFlorian:2007aj}\"\>", "MSG"]], "Print", \
 "PrintUsage",
- CellChangeTimes->{3.7391177786275454`*^9},
- CellTags->"Info3933739103378-8444184"],
+ CellChangeTimes->{3.739208422236322*^9},
+ CellTags->"Info23739194022-5256903"],
 
 Cell[BoxData[
  StyleBox["\<\"D1ubar[pion_, z_, Q2_ ] is the unpolarised collinear FF for \
 ubar quark, pion = pi+ or pi-, bibitem{deFlorian:2007aj}\"\>", 
   "MSG"]], "Print", "PrintUsage",
- CellChangeTimes->{3.7391177787370777`*^9},
- CellTags->"Info3933739103378-8444184"],
+ CellChangeTimes->{3.739208422332634*^9},
+ CellTags->"Info23739194022-5256903"],
 
 Cell[BoxData[
  StyleBox["\<\"D1dbar[pion_, z_, Q2_ ] is the unpolarised collinear FF for \
 dbar quark, pion = pi+ or pi-, bibitem{deFlorian:2007aj}\"\>", 
   "MSG"]], "Print", "PrintUsage",
- CellChangeTimes->{3.739117778893215*^9},
- CellTags->"Info3933739103378-8444184"],
+ CellChangeTimes->{3.739208422431492*^9},
+ CellTags->"Info23739194022-5256903"],
 
 Cell[BoxData[
  StyleBox["\<\"D1s[pion_, z_, Q2_ ] is the unpolarised collinear FF for s \
 quark, pion = pi+ or pi-, bibitem{deFlorian:2007aj}\"\>", "MSG"]], "Print", \
 "PrintUsage",
- CellChangeTimes->{3.739117779330326*^9},
- CellTags->"Info3933739103378-8444184"],
+ CellChangeTimes->{3.739208422523633*^9},
+ CellTags->"Info23739194022-5256903"],
 
 Cell[BoxData[
  StyleBox["\<\"D1sbar[pion_, z_, Q2_ ] is the unpolarised collinear FF for \
 sbar quark, pion = pi+ or pi-, bibitem{deFlorian:2007aj}\"\>", 
   "MSG"]], "Print", "PrintUsage",
- CellChangeTimes->{3.739117779992855*^9},
- CellTags->"Info3933739103379-8444184"],
+ CellChangeTimes->{3.7392084226194553`*^9},
+ CellTags->"Info23739194022-5256903"],
 
 Cell[BoxData[
  StyleBox["\<\"g1u[x_,Q2_ ] is the helicity collinear PDF for u quark, \
 bibitem{Gluck:1998xa}\"\>", "MSG"]], "Print", "PrintUsage",
- CellChangeTimes->{3.7391177801035337`*^9},
- CellTags->"Info3933739103380-8444184"],
+ CellChangeTimes->{3.739208422715498*^9},
+ CellTags->"Info23739194022-5256903"],
 
 Cell[BoxData[
  StyleBox["\<\"g1d[x_,Q2_ ] is the helicity collinear PDF for d quark, \
 bibitem{Gluck:1998xa}\"\>", "MSG"]], "Print", "PrintUsage",
- CellChangeTimes->{3.7391177802108803`*^9},
- CellTags->"Info3933739103380-8444184"],
+ CellChangeTimes->{3.739208422809018*^9},
+ CellTags->"Info23739194022-5256903"],
 
 Cell[BoxData[
  StyleBox["\<\"g1ubar[x_,Q2_ ] is the helicity collinear PDF for ubar quark, \
 bibitem{Gluck:1998xa}\"\>", "MSG"]], "Print", "PrintUsage",
- CellChangeTimes->{3.7391177803180313`*^9},
- CellTags->"Info3933739103380-8444184"],
+ CellChangeTimes->{3.73920842290211*^9},
+ CellTags->"Info23739194022-5256903"],
 
 Cell[BoxData[
  StyleBox["\<\"g1dbar[x_,Q2_ ] is the helicity collinear PDF for dbar quark, \
 bibitem{Gluck:1998xa}\"\>", "MSG"]], "Print", "PrintUsage",
- CellChangeTimes->{3.739117780424383*^9},
- CellTags->"Info3933739103380-8444184"],
+ CellChangeTimes->{3.7392084230199823`*^9},
+ CellTags->"Info23739194022-5256903"],
 
 Cell[BoxData[
  StyleBox["\<\"g1s[x_,Q2_ ] is the helicity collinear PDF for s quark, \
 bibitem{Gluck:1998xa}\"\>", "MSG"]], "Print", "PrintUsage",
- CellChangeTimes->{3.7391177805370073`*^9},
- CellTags->"Info3933739103380-8444184"],
+ CellChangeTimes->{3.7392084231146507`*^9},
+ CellTags->"Info23739194023-5256903"],
 
 Cell[BoxData[
  StyleBox["\<\"g1sbar[x_,Q2_ ] is the helicity collinear PDF for sbar quark, \
 bibitem{Gluck:1998xa}\"\>", "MSG"]], "Print", "PrintUsage",
- CellChangeTimes->{3.7391177806433697`*^9},
- CellTags->"Info3933739103380-8444184"],
+ CellChangeTimes->{3.739208423209741*^9},
+ CellTags->"Info23739194023-5256903"],
 
 Cell[BoxData[
  StyleBox["\<\"h1u[x_,Q2_ ] is the transversity collinear PDF for u quark, \
 bibitem{Anselmino:2013vqa}\"\>", "MSG"]], "Print", "PrintUsage",
- CellChangeTimes->{3.739117780750443*^9},
- CellTags->"Info3933739103380-8444184"],
+ CellChangeTimes->{3.73920842330295*^9},
+ CellTags->"Info23739194023-5256903"],
 
 Cell[BoxData[
  StyleBox["\<\"h1d[x_,Q2_ ] is the transversity collinear PDF for d quark, \
 bibitem{Anselmino:2013vqa}\"\>", "MSG"]], "Print", "PrintUsage",
- CellChangeTimes->{3.739117781126313*^9},
- CellTags->"Info3933739103380-8444184"],
+ CellChangeTimes->{3.7392084233949747`*^9},
+ CellTags->"Info23739194023-5256903"],
 
 Cell[BoxData[
  StyleBox["\<\"h1ubar[x_,Q2_ ] is the transversity collinear PDF for ubar \
 quark, bibitem{Anselmino:2013vqa}\"\>", "MSG"]], "Print", "PrintUsage",
- CellChangeTimes->{3.739117781475299*^9},
- CellTags->"Info3933739103381-8444184"],
+ CellChangeTimes->{3.7392084235007153`*^9},
+ CellTags->"Info23739194023-5256903"],
 
 Cell[BoxData[
  StyleBox["\<\"h1dbar[x_,Q2_ ] is the transversity collinear PDF for dbar \
 quark, bibitem{Anselmino:2013vqa}\"\>", "MSG"]], "Print", "PrintUsage",
- CellChangeTimes->{3.73911778158755*^9},
- CellTags->"Info3933739103381-8444184"],
+ CellChangeTimes->{3.73920842359708*^9},
+ CellTags->"Info23739194023-5256903"],
 
 Cell[BoxData[
  StyleBox["\<\"h1s[x_,Q2_ ] is the transversity collinear PDF for s quark, \
 bibitem{Anselmino:2013vqa}\"\>", "MSG"]], "Print", "PrintUsage",
- CellChangeTimes->{3.739117781696741*^9},
- CellTags->"Info3933739103381-8444184"],
+ CellChangeTimes->{3.739208423694511*^9},
+ CellTags->"Info23739194023-5256903"],
 
 Cell[BoxData[
  StyleBox["\<\"h1sbar[x_,Q2_ ] is the transversity collinear PDF for sbar \
 quark, bibitem{Anselmino:2013vqa}\"\>", "MSG"]], "Print", "PrintUsage",
- CellChangeTimes->{3.73911778180709*^9},
- CellTags->"Info3933739103381-8444184"],
+ CellChangeTimes->{3.739208423799594*^9},
+ CellTags->"Info23739194023-5256903"],
 
 Cell[BoxData[
  StyleBox["\<\"H1perpFirstMoment[quark_, pion_, x_, Q2_] the first moment of \
 Collins FF favoured, bibitem{Anselmino:2013vqa}\"\>", "MSG"]], "Print", \
 "PrintUsage",
- CellChangeTimes->{3.739117782059112*^9},
- CellTags->"Info3933739103381-8444184"],
+ CellChangeTimes->{3.739208423897594*^9},
+ CellTags->"Info23739194023-5256903"],
 
 Cell[BoxData[
  StyleBox["\<\"f1TperpuFirstMoment[x_,Q2_] the first moment of \
 \!\(\*SubsuperscriptBox[\(f\), \(1  T\), \(\[UpTee]\)]\) Sivers PDF for u \
 quark, bibitem{Anselmino:2011gs}\"\>", "MSG"]], "Print", "PrintUsage",
- CellChangeTimes->{3.739117782409477*^9},
- CellTags->"Info3933739103382-8444184"],
+ CellChangeTimes->{3.739208423992784*^9},
+ CellTags->"Info23739194023-5256903"],
 
 Cell[BoxData[
  StyleBox["\<\"f1TperpdFirstMoment[x_,Q2_] the first moment of \
 \!\(\*SubsuperscriptBox[\(f\), \(1  T\), \(\[UpTee]\)]\) Sivers PDF for d \
 quark, bibitem{Anselmino:2011gs}\"\>", "MSG"]], "Print", "PrintUsage",
- CellChangeTimes->{3.7391177827609577`*^9},
- CellTags->"Info3933739103382-8444184"],
+ CellChangeTimes->{3.7392084240883503`*^9},
+ CellTags->"Info23739194024-5256903"],
 
 Cell[BoxData[
  StyleBox["\<\"f1TperpubarFirstMoment[x_,Q2_] the first moment of \
 \!\(\*SubsuperscriptBox[\(f\), \(1  T\), \(\[UpTee]\)]\) Sivers PDF for ubar \
 quark, bibitem{Anselmino:2011gs}\"\>", "MSG"]], "Print", "PrintUsage",
- CellChangeTimes->{3.739117782871689*^9},
- CellTags->"Info3933739103382-8444184"],
+ CellChangeTimes->{3.7392084241824827`*^9},
+ CellTags->"Info23739194024-5256903"],
 
 Cell[BoxData[
  StyleBox["\<\"f1TperpdbarFirstMoment[x_,Q2_] the first moment of \
 \!\(\*SubsuperscriptBox[\(f\), \(1  T\), \(\[UpTee]\)]\) Sivers PDF for dbar \
 quark, bibitem{Anselmino:2011gs}\"\>", "MSG"]], "Print", "PrintUsage",
- CellChangeTimes->{3.739117782977572*^9},
- CellTags->"Info3933739103382-8444184"],
+ CellChangeTimes->{3.7392084242767878`*^9},
+ CellTags->"Info23739194024-5256903"],
 
 Cell[BoxData[
  StyleBox["\<\"f1TperpsFirstMoment[x_,Q2_] the first moment of \
 \!\(\*SubsuperscriptBox[\(f\), \(1  T\), \(\[UpTee]\)]\) Sivers PDF for s \
 quark, bibitem{Anselmino:2011gs}\"\>", "MSG"]], "Print", "PrintUsage",
- CellChangeTimes->{3.739117783326262*^9},
- CellTags->"Info3933739103383-8444184"],
+ CellChangeTimes->{3.739208424373148*^9},
+ CellTags->"Info23739194024-5256903"],
 
 Cell[BoxData[
  StyleBox["\<\"f1TperpsbarFirstMoment[x_,Q2_] the first moment of \
 \!\(\*SubsuperscriptBox[\(f\), \(1  T\), \(\[UpTee]\)]\) Sivers PDF for sbar \
 quark, bibitem{Anselmino:2011gs}\"\>", "MSG"]], "Print", "PrintUsage",
- CellChangeTimes->{3.7391177838903427`*^9},
- CellTags->"Info3933739103383-8444184"],
+ CellChangeTimes->{3.739208424466455*^9},
+ CellTags->"Info23739194024-5256903"],
 
 Cell[BoxData[
  StyleBox["\<\"h1TperpuSecondMoment[x_,Q2_] the second moment of pretzelosity \
 for u quark, bibitem{Lefky:2014eia};\"\>", "MSG"]], "Print", "PrintUsage",
- CellChangeTimes->{3.739117784175488*^9},
- CellTags->"Info3933739103383-8444184"],
+ CellChangeTimes->{3.7392084245625153`*^9},
+ CellTags->"Info23739194024-5256903"],
 
 Cell[BoxData[
  StyleBox["\<\"h1TperpdSecondMoment[x_,Q2_] the second moment of pretzelosity \
 for d quark, bibitem{Lefky:2014eia};\"\>", "MSG"]], "Print", "PrintUsage",
- CellChangeTimes->{3.739117784526535*^9},
- CellTags->"Info3933739103384-8444184"],
+ CellChangeTimes->{3.739208424653905*^9},
+ CellTags->"Info23739194024-5256903"],
 
 Cell[BoxData[
  StyleBox["\<\"h1perpuFirstMoment[x_,Q2_] the first moment of Boer-Mulders \
 function for u quark, bibitem{Barone:2009hw};\"\>", "MSG"]], "Print", \
 "PrintUsage",
- CellChangeTimes->{3.739117784635069*^9},
- CellTags->"Info3933739103384-8444184"],
+ CellChangeTimes->{3.739208424747965*^9},
+ CellTags->"Info23739194024-5256903"],
 
 Cell[BoxData[
  StyleBox["\<\"h1perpdFirstMoment[x_,Q2_] the first moment of Boer-Mulders \
 function for d quark, bibitem{Barone:2009hw};\"\>", "MSG"]], "Print", \
 "PrintUsage",
- CellChangeTimes->{3.739117784738493*^9},
- CellTags->"Info3933739103384-8444184"],
+ CellChangeTimes->{3.739208424812224*^9},
+ CellTags->"Info23739194024-5256903"],
 
 Cell[BoxData[
  StyleBox["\<\"h1Lu[x_,Q2_ ] is the \!\(\*SubsuperscriptBox[\(h\), \(1  L\), \
 \(\[UpTee]\)]\) PDF for u quark, this work\"\>", "MSG"]], "Print", \
 "PrintUsage",
- CellChangeTimes->{3.739117784844721*^9},
- CellTags->"Info3933739103384-8444184"],
+ CellChangeTimes->{3.739208424906548*^9},
+ CellTags->"Info23739194024-5256903"],
 
 Cell[BoxData[
  StyleBox["\<\"h1Ld[x_,Q2_ ] is the \!\(\*SubsuperscriptBox[\(h\), \(1  L\), \
 \(\[UpTee]\)]\) PDF for u quark, this work\"\>", "MSG"]], "Print", \
 "PrintUsage",
- CellChangeTimes->{3.739117784951694*^9},
- CellTags->"Info3933739103384-8444184"],
+ CellChangeTimes->{3.739208425005348*^9},
+ CellTags->"Info23739194024-5256903"],
 
 Cell[BoxData[
  StyleBox["\<\"g1Tperpu[x_,Q2_ ] is the \!\(\*SubsuperscriptBox[\(g\), \(1  T\
 \), \(\[UpTee]\)]\) PDF for u quark, this work\"\>", "MSG"]], "Print", \
 "PrintUsage",
- CellChangeTimes->{3.739117785079073*^9},
- CellTags->"Info3933739103384-8444184"],
+ CellChangeTimes->{3.7392084251078157`*^9},
+ CellTags->"Info23739194025-5256903"],
 
 Cell[BoxData[
  StyleBox["\<\"g1Tperpd[x_,Q2_ ] is the \!\(\*SubsuperscriptBox[\(g\), \(1  T\
 \), \(\[UpTee]\)]\) PDF for d quark, this work\"\>", "MSG"]], "Print", \
 "PrintUsage",
- CellChangeTimes->{3.739117785157164*^9},
- CellTags->"Info3933739103385-8444184"],
+ CellChangeTimes->{3.739208425204627*^9},
+ CellTags->"Info23739194025-5256903"],
 
 Cell[BoxData[
  StyleBox["\<\"ALL[pion_, x_, z_, Q2_, PT_] is the \!\(\*SubscriptBox[\(A\), \
 \(LL\)]\) asymmetry\"\>", "MSG"]], "Print", "PrintUsage",
- CellChangeTimes->{3.739117785261629*^9},
- CellTags->"Info3933739103385-8444184"],
+ CellChangeTimes->{3.7392084252980433`*^9},
+ CellTags->"Info23739194025-5256903"],
 
 Cell[BoxData[
  StyleBox["\<\"AUTSivers[pion_, x_, z_, Q2_, PT_] is the Sivers \
 \!\(\*SubsuperscriptBox[\(A\), \(UT\), \(TraditionalForm\`sin[\*SubscriptBox[\
 \(\[CapitalPhi]\), \(h\)] - \*SubscriptBox[\(\[CapitalPhi]\), \(S\)]]\)]\) \
 asymmetry\"\>", "MSG"]], "Print", "PrintUsage",
- CellChangeTimes->{3.739117785366538*^9},
- CellTags->"Info3933739103385-8444184"],
+ CellChangeTimes->{3.739208425391513*^9},
+ CellTags->"Info23739194025-5256903"],
 
 Cell[BoxData[
  StyleBox["\<\"AUTCollins[pion_, x_, z_, Q2_, PT_] is the Collins \
 \!\(\*SubsuperscriptBox[\(A\), \(UT\), \(TraditionalForm\`sin[\*SubscriptBox[\
 \(\[CapitalPhi]\), \(h\)] + \*SubscriptBox[\(\[CapitalPhi]\), \(S\)]]\)]\) \
 asymmetry\"\>", "MSG"]], "Print", "PrintUsage",
- CellChangeTimes->{3.739117785478339*^9},
- CellTags->"Info3933739103385-8444184"],
+ CellChangeTimes->{3.7392084255025873`*^9},
+ CellTags->"Info23739194025-5256903"],
 
 Cell[BoxData[
  StyleBox["\<\"AUTh1tp[pion_, x_, z_, Q2_, PT_] is the Pretzelosity \
 \!\(\*SubsuperscriptBox[\(A\), \(UT\), \(TraditionalForm\`sin[3\\\\ \
 \*SubscriptBox[\(\[CapitalPhi]\), \(h\)] - \*SubscriptBox[\(\[CapitalPhi]\), \
 \(S\)]]\)]\) asymmetry\"\>", "MSG"]], "Print", "PrintUsage",
- CellChangeTimes->{3.7391177855830603`*^9},
- CellTags->"Info3933739103385-8444184"],
+ CellChangeTimes->{3.739208425595826*^9},
+ CellTags->"Info23739194025-5256903"],
 
 Cell[BoxData[
  StyleBox["\<\"AUUcos2phi[pion_, x_, z_, Q2_, PT_] is the Boer-Mulders \
 \!\(\*SubsuperscriptBox[\(A\), \(UU\), \(TraditionalForm\`cos[2 \
 \*SubscriptBox[\(\[CapitalPhi]\), \(h\)]]\)]\) asymmetry\"\>", 
   "MSG"]], "Print", "PrintUsage",
- CellChangeTimes->{3.739117785691834*^9},
- CellTags->"Info3933739103385-8444184"],
+ CellChangeTimes->{3.739208425686998*^9},
+ CellTags->"Info23739194025-5256903"],
 
 Cell[BoxData[
  StyleBox["\<\"ALT[pion_, x_, z_, Q2_, PT_] is the Double Spin \
 \!\(\*SubsuperscriptBox[\(A\), \(LT\), \(TraditionalForm\`cos[\*SubscriptBox[\
 \(\[CapitalPhi]\), \(h\)] - \*SubscriptBox[\(\[CapitalPhi]\), \(S\)]]\)]\) \
 asymmetry\"\>", "MSG"]], "Print", "PrintUsage",
- CellChangeTimes->{3.73911778579697*^9},
- CellTags->"Info3933739103385-8444184"],
+ CellChangeTimes->{3.739208425783169*^9},
+ CellTags->"Info23739194025-5256903"],
 
 Cell[BoxData[
  StyleBox["\<\"AULsin2phi[pion_, x_, z_, Q2_, PT_] is the Kotzinian-Mulders \
 \!\(\*SubsuperscriptBox[\(A\), \(UL\), \(TraditionalForm\`sin[2 \
 \*SubscriptBox[\(\[CapitalPhi]\), \(h\)]]\)]\) asymmetry\"\>", 
   "MSG"]], "Print", "PrintUsage",
- CellChangeTimes->{3.739117785942561*^9},
- CellTags->"Info3933739103385-8444184"],
+ CellChangeTimes->{3.7392084258761263`*^9},
+ CellTags->"Info23739194025-5256903"],
 
 Cell[BoxData[
  StyleBox["\<\"ALTcosPhi[pion_, x_, z_, Q2_, PT_] is the \
 \!\(\*SubsuperscriptBox[\(A\), \(LT\), \(TraditionalForm\`cos[\*SubscriptBox[\
 \(\[CapitalPhi]\), \(S\)]]\)]\) asymmetry\"\>", "MSG"]], "Print", "PrintUsage",
- CellChangeTimes->{3.739117786183481*^9},
- CellTags->"Info3933739103385-8444184"],
+ CellChangeTimes->{3.739208425970414*^9},
+ CellTags->"Info23739194025-5256903"],
 
 Cell[BoxData[
  StyleBox["\<\"AULsinphi[pion_, x_, z_, Q2_, PT_] is the \
 \!\(\*SubsuperscriptBox[\(A\), \(UL\), \(TraditionalForm\`sin[\*SubscriptBox[\
 \(\[CapitalPhi]\), \(h\)]]\)]\) asymmetry\"\>", "MSG"]], "Print", "PrintUsage",
- CellChangeTimes->{3.739117786609215*^9},
- CellTags->"Info3933739103386-8444184"],
+ CellChangeTimes->{3.739208426066337*^9},
+ CellTags->"Info23739194026-5256903"],
 
 Cell[BoxData[
  StyleBox["\<\"ALLcosphi[pion_, x_, z_, Q2_, PT_] is the \
 \!\(\*SubsuperscriptBox[\(A\), \(LL\), \(TraditionalForm\`cos[\*SubscriptBox[\
 \(\[CapitalPhi]\), \(h\)]]\)]\) asymmetry\"\>", "MSG"]], "Print", "PrintUsage",
- CellChangeTimes->{3.739117786857815*^9},
- CellTags->"Info3933739103386-8444184"],
+ CellChangeTimes->{3.7392084261600847`*^9},
+ CellTags->"Info23739194026-5256903"],
 
 Cell[BoxData[
  StyleBox["\<\"ALTcos2PhiminusPhiS[pion_, x_, z_, Q2_, PT_] is the \
 \!\(\*SubsuperscriptBox[\(A\), \(LT\), \(TraditionalForm\`cos[2 \
 \*SubscriptBox[\(\[CapitalPhi]\), \(h\)] - \*SubscriptBox[\(\[CapitalPhi]\), \
 \(S\)]]\)]\) asymmetry\"\>", "MSG"]], "Print", "PrintUsage",
- CellChangeTimes->{3.7391177869651318`*^9},
- CellTags->"Info3933739103386-8444184"],
+ CellChangeTimes->{3.739208426256291*^9},
+ CellTags->"Info23739194026-5256903"],
 
 Cell[BoxData[
  StyleBox["\<\"AUUcosphi[pion_, x_, z_, Q2_, PT_] is the \
 \!\(\*SubsuperscriptBox[\(A\), \(UU\), \(TraditionalForm\`cos[\*SubscriptBox[\
 \(\[CapitalPhi]\), \(h\)]]\)]\) asymmetry\"\>", "MSG"]], "Print", "PrintUsage",
- CellChangeTimes->{3.7391177870731707`*^9},
- CellTags->"Info3933739103387-8444184"],
+ CellChangeTimes->{3.739208426349079*^9},
+ CellTags->"Info23739194026-5256903"],
 
 Cell[BoxData[
  StyleBox["\<\"AUTsinphiS[pion_, x_, z_, Q2_, PT_] is the \
 \!\(\*SubsuperscriptBox[\(A\), \(UT\), \(TraditionalForm\`sin[\*SubscriptBox[\
 \(\[CapitalPhi]\), \(S\)]]\)]\) asymmetry\"\>", "MSG"]], "Print", "PrintUsage",
- CellChangeTimes->{3.7391177871799383`*^9},
- CellTags->"Info3933739103387-8444184"],
+ CellChangeTimes->{3.739208426443653*^9},
+ CellTags->"Info23739194026-5256903"],
 
 Cell[BoxData[
  StyleBox["\<\"AUTsin2PhiminusPhiS[pion_, x_, z_, Q2_, PT_] is the \
 \!\(\*SubsuperscriptBox[\(A\), \(UT\), \(TraditionalForm\`sin[2 \
 \*SubscriptBox[\(\[CapitalPhi]\), \(h\)] - \*SubscriptBox[\(\[CapitalPhi]\), \
 \(S\)]]\)]\) asymmetry\"\>", "MSG"]], "Print", "PrintUsage",
- CellChangeTimes->{3.739117787603757*^9},
- CellTags->"Info3933739103387-8444184"],
+ CellChangeTimes->{3.73920842653747*^9},
+ CellTags->"Info23739194026-5256903"],
 
 Cell[BoxData[
  StyleBox["\<\"Semi-Inclusive Deep Inelastic Cross Section, \
@@ -550,8 +551,8 @@ CrossSection[pion_,x_,z_,Q2_,PT_,energy_,phih_,phiS_,helicity_,\
 targetpolarization_] calculates the differential cross section of specified \
 pion_,x_,z_,Q2_,PT_,energy_,phih_,phiS_,helicity_,targetpolarization_\"\>", 
   "MSG"]], "Print", "PrintUsage",
- CellChangeTimes->{3.7391177880436*^9},
- CellTags->"Info3933739103387-8444184"],
+ CellChangeTimes->{3.7392084266330147`*^9},
+ CellTags->"Info23739194026-5256903"],
 
 Cell[BoxData["\<\"Contains the following constants: \"\>"], "Print",
  CellChangeTimes->{{3.7371334509930773`*^9, 3.737133465329197*^9}, 
@@ -565,39 +566,39 @@ Cell[BoxData["\<\"Contains the following constants: \"\>"], "Print",
    3.737219695660479*^9, 3.737219774069871*^9, 3.737219829085348*^9, 
    3.7372199046518707`*^9, 3.738926313969696*^9, {3.738927315239772*^9, 
    3.738927344628806*^9}, 3.7389273793006783`*^9, 3.739008371143661*^9, 
-   3.739117788058145*^9},
+   3.739117777654303*^9, 3.7392084266400146`*^9},
  ExpressionUUID -> "6f9e2082-1bf7-45e1-969b-3c86786fb4d3"],
 
 Cell[BoxData[
  StyleBox["\<\"avp unpolarized \!\(\*SubscriptBox[\(D\), \(1\)]\) TMD \
 fragmentation distribution width\"\>", "MSG"]], "Print", "PrintUsage",
- CellChangeTimes->{3.739117788139805*^9},
- CellTags->"Info3933739103388-8444184"],
+ CellChangeTimes->{3.739208426705268*^9},
+ CellTags->"Info23739194026-5256903"],
 
 Cell[BoxData[
  StyleBox["\<\"avk unpolarized \!\(\*SubscriptBox[\(f\), \(1\)]\) TMD  \
 width\"\>", "MSG"]], "Print", "PrintUsage",
- CellChangeTimes->{3.7391177882411737`*^9},
- CellTags->"Info3933739103388-8444184"],
+ CellChangeTimes->{3.7392084267955647`*^9},
+ CellTags->"Info23739194026-5256903"],
 
 Cell[BoxData[
  StyleBox["\<\"avkg helicity \!\(\*SubscriptBox[\(g\), \(1\)]\)TMD width\"\>",
    "MSG"]], "Print", "PrintUsage",
- CellChangeTimes->{3.739117788339484*^9},
- CellTags->"Info3933739103388-8444184"],
+ CellChangeTimes->{3.73920842688764*^9},
+ CellTags->"Info23739194026-5256903"],
 
 Cell[BoxData[
  StyleBox["\<\"avks \!\(\*SubsuperscriptBox[\(f\), \(1  T\), \(\[UpTee]\)]\) \
 (Sivers function) TMD width\"\>", "MSG"]], "Print", "PrintUsage",
- CellChangeTimes->{3.739117788439205*^9},
- CellTags->"Info3933739103388-8444184"],
+ CellChangeTimes->{3.739208426983838*^9},
+ CellTags->"Info23739194026-5256903"],
 
 Cell[BoxData[
  StyleBox["\<\"avkh \!\(\*SubsuperscriptBox[\(H\), \(1\), \(\[UpTee]\)]\) \
 (Collins fragmentation function) TMD width\"\>", "MSG"]], "Print", \
 "PrintUsage",
- CellChangeTimes->{3.739117788548483*^9},
- CellTags->"Info3933739103388-8444184"],
+ CellChangeTimes->{3.739208427080179*^9},
+ CellTags->"Info23739194027-5256903"],
 
 Cell[BoxData["\<\"Mathematica package for MSTW PDFs\\nby Graeme Watt \
 <Graeme.Watt(at)cern.ch>.\\nFor information on usage, see ?ReadPDFGrid and \
@@ -613,7 +614,7 @@ Cell[BoxData["\<\"Mathematica package for MSTW PDFs\\nby Graeme Watt \
    3.737219695660479*^9, 3.737219774069871*^9, 3.737219829085348*^9, 
    3.7372199046518707`*^9, 3.738926313969696*^9, {3.738927315239772*^9, 
    3.738927344628806*^9}, 3.7389273793006783`*^9, 3.739008371143661*^9, 
-   3.739117789517922*^9},
+   3.739117777654303*^9, 3.7392084280503607`*^9},
  ExpressionUUID -> "6f9e2082-1bf7-45e1-969b-3c86786fb4d3"],
 
 Cell[BoxData[
@@ -633,7 +634,7 @@ Cell[BoxData[
    3.737219695660479*^9, 3.737219774069871*^9, 3.737219829085348*^9, 
    3.7372199046518707`*^9, 3.738926313969696*^9, {3.738927315239772*^9, 
    3.738927344628806*^9}, 3.7389273793006783`*^9, 3.739008371143661*^9, 
-   3.739117797846603*^9},
+   3.739117777654303*^9, 3.739208435331272*^9},
  ExpressionUUID -> "6f9e2082-1bf7-45e1-969b-3c86786fb4d3"]
 }, Open  ]]
 }, Open  ]],
@@ -833,7 +834,7 @@ OFsOiswa+XyVprUks7/QNzpxUKo+1t2ZxNGK3ZrtPuJCzl8xks8TMqr1I9fr
 b6EbB95PF+9NThvUqn3Gs0XHi3RerIrdKFVLUZlSzO9Lxh+p8YQIeKN1yMvT
 pcGPA67/X/8D9sotDg==
          "]]},
-       Annotation[#, "Charting`Private`Tag$944910#1"]& ], 
+       Annotation[#, "Charting`Private`Tag$46898#1"]& ], 
       TagBox[
        {RGBColor[0, 0, 1], Thickness[Large], Opacity[1.], 
         Dashing[{Small, Small}], LineBox[CompressedData["
@@ -1017,7 +1018,7 @@ NpZP3yEmvYvH3JXJ/vq9NOLNbhOXI733sFRZuONO5GYL3yQW0v574KLOQtWC
 cUeevDcRUDo/TtNgYZfIHa+0BU8iduTmw/GdLBxWurC8o+4CITFPTJ7bzcLi
 iyHhN9N2xMt1bHtHCDJ+U43tuvmmRMS0yRlnHRbY/v/zf+GnS5c=
          "]]},
-       Annotation[#, "Charting`Private`Tag$944910#2"]& ]}, {}, {}}, InsetBox[
+       Annotation[#, "Charting`Private`Tag$46898#2"]& ]}, {}, {}}, InsetBox[
      TemplateBox[{
       "\"u\"","\"d\"","\"\\!\\(\\*OverscriptBox[\\(u\\), \\(_\\)]\\)\"",
        "\"\\!\\(\\*OverscriptBox[\\(d\\), \\(_\\)]\\)\""},
@@ -1369,7 +1370,7 @@ nAPxlNrgKLFFCE4tvDFvyUHNt+/iwgtzWsMbgjbVWnOg7Wt9IS3mj5Zphu7L
 OFsOiswa+XyVprUks7/QNzpxUKo+1t2ZxNGK3ZrtPuJCzl8xks8TMqr1I9fr
 b6EbB95PF+9NThvUqn3Gs0XHi3RerIrdKFVLUZlSzO9Lxh+p8YQIeKN1yMvT
 pcGPA67/X/8D9sotDg==
-           "]]}, "Charting`Private`Tag$944910#1"], 
+           "]]}, "Charting`Private`Tag$46898#1"], 
         Annotation[{
           Directive[
            Opacity[1.], 
@@ -1558,7 +1559,7 @@ NpZP3yEmvYvH3JXJ/vq9NOLNbhOXI733sFRZuONO5GYL3yQW0v574KLOQtWC
 cUeevDcRUDo/TtNgYZfIHa+0BU8iduTmw/GdLBxWurC8o+4CITFPTJ7bzcLi
 iyHhN9N2xMt1bHtHCDJ+U43tuvmmRMS0yRlnHRbY/v/zf+GnS5c=
            "]]}, 
-         "Charting`Private`Tag$944910#2"]}}, {}, {}}, {
+         "Charting`Private`Tag$46898#2"]}}, {}, {}}, {
      DisplayFunction -> Identity, Ticks -> {Automatic, Automatic}, 
       AxesOrigin -> {0, 0}, 
       FrameTicks -> {{Automatic, None}, {Automatic, None}}, 
@@ -1613,7 +1614,8 @@ iyHhN9N2xMt1bHtHCDJ+U43tuvmmRMS0yRlnHRbY/v/zf+GnS5c=
   Selectable->True]], "Output",
  CellChangeTimes->{3.7360040820892982`*^9, 3.736597782373618*^9, 
   3.736878454417513*^9, 3.737134762156506*^9, 3.737219848043803*^9, 
-  3.7372199293545113`*^9, 3.738926340756219*^9, 3.739117799114312*^9},
+  3.7372199293545113`*^9, 3.738926340756219*^9, 3.739117799114312*^9, 
+  3.739208436768886*^9},
  ExpressionUUID -> "bb40c39c-df88-4f96-a863-182ec19ff691"]
 }, Open  ]],
 
@@ -1903,7 +1905,7 @@ vqSFsYV0S4JccuoPfzKeHzSvyfPRhoQ0HtuAqzQamDW62DcXXiHsJkof4lrB
 Bl5Ptv5OeXiuKOXlmlqe/UuDFy4eMDddpXRAXOTX9jYN+kIf8fn6R537HzdS
 G44=
          "]]},
-       Annotation[#, "Charting`Private`Tag$955916#1"]& ], 
+       Annotation[#, "Charting`Private`Tag$58041#1"]& ], 
       TagBox[
        {RGBColor[0, 0, 1], Thickness[Large], Opacity[1.], 
         Dashing[{Small, Small}], LineBox[CompressedData["
@@ -2122,7 +2124,7 @@ zQLTDJR/FW+WlWmvcJX8m9c3wzwPMoHpLRINFd+y6/eR5hkoDW3bJ3a2vEJX
 Jqbl6iIDAX7f6s3y8ivy806f1/rLwNqO3sYulvAKPkWZ2X//GPDa6mTj5fXj
 /f8AcH5Jyw==
          "]]},
-       Annotation[#, "Charting`Private`Tag$955916#2"]& ]}, {}, {}}, InsetBox[
+       Annotation[#, "Charting`Private`Tag$58041#2"]& ]}, {}, {}}, InsetBox[
      TemplateBox[{"\"u\"","\"d\""},
       "LineLegend",
       DisplayFunction->(FormBox[
@@ -2564,7 +2566,7 @@ vqSFsYV0S4JccuoPfzKeHzSvyfPRhoQ0HtuAqzQamDW62DcXXiHsJkof4lrB
 9yPVesc9UwLBWeBv7ugqHs+jvv2K42KEr5mtStl/8Hrz4cm6q+cBgppIdLfj
 Bl5Ptv5OeXiuKOXlmlqe/UuDFy4eMDddpXRAXOTX9jYN+kIf8fn6R537HzdS
 G44=
-           "]]}, "Charting`Private`Tag$955916#1"], 
+           "]]}, "Charting`Private`Tag$58041#1"], 
         Annotation[{
           Directive[
            Opacity[1.], 
@@ -2787,7 +2789,7 @@ GVi9THpx8MRsRXT0DZLdIAOXcjuDBOynKxb5iN3ywww8eKbz8J42o6JZ6Ivt
 zQLTDJR/FW+WlWmvcJX8m9c3wzwPMoHpLRINFd+y6/eR5hkoDW3bJ3a2vEJX
 Jqbl6iIDAX7f6s3y8ivy806f1/rLwNqO3sYulvAKPkWZ2X//GPDa6mTj5fXj
 /f8AcH5Jyw==
-           "]]}, "Charting`Private`Tag$955916#2"]}}, {}, {}}, {
+           "]]}, "Charting`Private`Tag$58041#2"]}}, {}, {}}, {
      DisplayFunction -> Identity, Ticks -> {Automatic, Automatic}, 
       AxesOrigin -> {0, 0}, 
       FrameTicks -> {{Automatic, None}, {Automatic, None}}, 
@@ -2842,7 +2844,8 @@ Jqbl6iIDAX7f6s3y8ivy806f1/rLwNqO3sYulvAKPkWZ2X//GPDa6mTj5fXj
  CellChangeTimes->{
   3.736004821258172*^9, 3.73659848472362*^9, 3.737134773745914*^9, {
    3.7371348080201483`*^9, 3.737134825095715*^9}, 3.7372198487309933`*^9, 
-   3.737219930078073*^9, 3.738926345628042*^9, 3.7391177998004913`*^9},
+   3.737219930078073*^9, 3.738926345628042*^9, 3.7391177998004913`*^9, 
+   3.7392084373672028`*^9},
  ExpressionUUID -> "7ffb168f-30b3-479d-b6cc-a93b9ba53f1c"]
 }, Open  ]],
 
@@ -2954,7 +2957,7 @@ N93kFOizUZU9Sw6VZHoaUhQ+ya8eCJMRmLkG99d+pPBT6N3iQjmBimJ3fuoc
 BY5YeMl+gmCgwibI/zOFSyU9y94uuTqIu8PyXwq9Tqqe4ZMEtzeqzywuUlC3
 oPuvoAj+A0NGa6E=
          "]]},
-       Annotation[#, "Charting`Private`Tag$969842#1"]& ], 
+       Annotation[#, "Charting`Private`Tag$71967#1"]& ], 
       TagBox[
        {RGBColor[0, 0, 1], Thickness[Large], Opacity[1.], 
         Dashing[{Small, Small}], LineBox[CompressedData["
@@ -2987,7 +2990,7 @@ PuYmUch1DrYslRIUO8++DD1NweP3b6p39BNUv39Y9PkMhfuJ7U9TxwgaYh6Z
 oK76vCxnliC8+QPfLJ3CYI0zO2SeYCi6gU0WXc8utbX7TKBjYjFzl0vh13Va
 CqWSILLZZmMaj8J/RHta7Q==
          "]]},
-       Annotation[#, "Charting`Private`Tag$969842#2"]& ]}, {}, {}}, InsetBox[
+       Annotation[#, "Charting`Private`Tag$71967#2"]& ]}, {}, {}}, InsetBox[
      TemplateBox[{
       "\"\\!\\(\\*SuperscriptBox[\\(\[Pi]\\), \\(+\\)]\\)\"",
        "\"\\!\\(\\*SuperscriptBox[\\(\[Pi]\\), \\(-\\)]\\)\""},
@@ -3247,7 +3250,7 @@ tjllzu2l0GzDyUyXEhws2E4cxBSGtTM02kcIHl968TxmjIIsizm4b5wgfdv3
 N93kFOizUZU9Sw6VZHoaUhQ+ya8eCJMRmLkG99d+pPBT6N3iQjmBimJ3fuoc
 BY5YeMl+gmCgwibI/zOFSyU9y94uuTqIu8PyXwq9Tqqe4ZMEtzeqzywuUlC3
 oPuvoAj+A0NGa6E=
-           "]]}, "Charting`Private`Tag$969842#1"], 
+           "]]}, "Charting`Private`Tag$71967#1"], 
         Annotation[{
           Directive[
            Opacity[1.], 
@@ -3285,7 +3288,7 @@ PuYmUch1DrYslRIUO8++DD1NweP3b6p39BNUv39Y9PkMhfuJ7U9TxwgaYh6Z
 oK76vCxnliC8+QPfLJ3CYI0zO2SeYCi6gU0WXc8utbX7TKBjYjFzl0vh13Va
 CqWSILLZZmMaj8J/RHta7Q==
            "]]}, 
-         "Charting`Private`Tag$969842#2"]}}, {}, {}}, {
+         "Charting`Private`Tag$71967#2"]}}, {}, {}}, {
      DisplayFunction -> Identity, Ticks -> {Automatic, Automatic}, 
       AxesOrigin -> {0, 0}, 
       FrameTicks -> {{Automatic, None}, {Automatic, None}}, 
@@ -3343,13 +3346,13 @@ CqWSILLZZmMaj8J/RHta7Q==
   Selectable->True]], "Output",
  CellChangeTimes->{3.736021149873282*^9, 3.736600925641622*^9, 
   3.7371348627325487`*^9, 3.737219849313788*^9, 3.737219930666511*^9, 
-  3.738926351033036*^9, 3.739117800409327*^9},
+  3.738926351033036*^9, 3.739117800409327*^9, 3.7392084379633512`*^9},
  ExpressionUUID -> "d589d88a-d7b2-433e-97a0-a4a3fc9ab3a6"]
 }, Open  ]]
 }, Open  ]]
 },
-WindowSize->{1272, 993},
-WindowMargins->{{17, Automatic}, {Automatic, 0}},
+WindowSize->{1511, 846},
+WindowMargins->{{169, Automatic}, {60, Automatic}},
 Magnification:>1.5 Inherited,
 FrontEndVersion->"11.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (September \
 21, 2016)",
@@ -3361,309 +3364,299 @@ StyleDefinitions->FrontEnd`FileName[{"Report"}, "StandardReport.nb",
 (* Internal cache information *)
 (*CellTagsOutline
 CellTagsIndex->{
- "Info3933739103377-8444184"->{
-  Cell[9640, 188, 232, 4, 60, "Print",
-   CellTags->"Info3933739103377-8444184"],
-  Cell[9875, 194, 232, 4, 60, "Print",
-   CellTags->"Info3933739103377-8444184"]},
- "Info3933739103378-8444184"->{
-  Cell[10110, 200, 238, 4, 60, "Print",
-   CellTags->"Info3933739103378-8444184"],
-  Cell[10351, 206, 238, 4, 60, "Print",
-   CellTags->"Info3933739103378-8444184"],
-  Cell[10592, 212, 232, 4, 60, "Print",
-   CellTags->"Info3933739103378-8444184"],
-  Cell[10827, 218, 238, 4, 60, "Print",
-   CellTags->"Info3933739103378-8444184"],
-  Cell[11068, 224, 265, 5, 60, "Print",
-   CellTags->"Info3933739103378-8444184"],
-  Cell[11336, 231, 268, 5, 60, "Print",
-   CellTags->"Info3933739103378-8444184"],
-  Cell[11607, 238, 272, 5, 60, "Print",
-   CellTags->"Info3933739103378-8444184"],
-  Cell[11882, 245, 270, 5, 60, "Print",
-   CellTags->"Info3933739103378-8444184"],
-  Cell[12155, 252, 263, 5, 60, "Print",
-   CellTags->"Info3933739103378-8444184"]},
- "Info3933739103379-8444184"->{
-  Cell[12421, 259, 270, 5, 60, "Print",
-   CellTags->"Info3933739103379-8444184"]},
- "Info3933739103380-8444184"->{
-  Cell[12694, 266, 230, 4, 62, "Print",
-   CellTags->"Info3933739103380-8444184"],
-  Cell[12927, 272, 230, 4, 62, "Print",
-   CellTags->"Info3933739103380-8444184"],
-  Cell[13160, 278, 236, 4, 62, "Print",
-   CellTags->"Info3933739103380-8444184"],
-  Cell[13399, 284, 234, 4, 62, "Print",
-   CellTags->"Info3933739103380-8444184"],
-  Cell[13636, 290, 230, 4, 62, "Print",
-   CellTags->"Info3933739103380-8444184"],
-  Cell[13869, 296, 236, 4, 62, "Print",
-   CellTags->"Info3933739103380-8444184"],
-  Cell[14108, 302, 237, 4, 60, "Print",
-   CellTags->"Info3933739103380-8444184"],
-  Cell[14348, 308, 237, 4, 60, "Print",
-   CellTags->"Info3933739103380-8444184"]},
- "Info3933739103381-8444184"->{
-  Cell[14588, 314, 243, 4, 60, "Print",
-   CellTags->"Info3933739103381-8444184"],
-  Cell[14834, 320, 242, 4, 60, "Print",
-   CellTags->"Info3933739103381-8444184"],
-  Cell[15079, 326, 237, 4, 60, "Print",
-   CellTags->"Info3933739103381-8444184"],
-  Cell[15319, 332, 242, 4, 60, "Print",
-   CellTags->"Info3933739103381-8444184"],
-  Cell[15564, 338, 262, 5, 60, "Print",
-   CellTags->"Info3933739103381-8444184"]},
- "Info3933739103382-8444184"->{
-  Cell[15829, 345, 307, 5, 64, "Print",
-   CellTags->"Info3933739103382-8444184"],
-  Cell[16139, 352, 309, 5, 64, "Print",
-   CellTags->"Info3933739103382-8444184"],
-  Cell[16451, 359, 313, 5, 64, "Print",
-   CellTags->"Info3933739103382-8444184"],
-  Cell[16767, 366, 313, 5, 64, "Print",
-   CellTags->"Info3933739103382-8444184"]},
- "Info3933739103383-8444184"->{
-  Cell[17083, 373, 307, 5, 64, "Print",
-   CellTags->"Info3933739103383-8444184"],
-  Cell[17393, 380, 315, 5, 64, "Print",
-   CellTags->"Info3933739103383-8444184"],
-  Cell[17711, 387, 250, 4, 60, "Print",
-   CellTags->"Info3933739103383-8444184"]},
- "Info3933739103384-8444184"->{
-  Cell[17964, 393, 250, 4, 60, "Print",
-   CellTags->"Info3933739103384-8444184"],
-  Cell[18217, 399, 258, 5, 60, "Print",
-   CellTags->"Info3933739103384-8444184"],
-  Cell[18478, 406, 258, 5, 60, "Print",
-   CellTags->"Info3933739103384-8444184"],
-  Cell[18739, 413, 257, 5, 64, "Print",
-   CellTags->"Info3933739103384-8444184"],
-  Cell[18999, 420, 257, 5, 64, "Print",
-   CellTags->"Info3933739103384-8444184"],
-  Cell[19259, 427, 261, 5, 64, "Print",
-   CellTags->"Info3933739103384-8444184"]},
- "Info3933739103385-8444184"->{
-  Cell[19523, 434, 261, 5, 64, "Print",
-   CellTags->"Info3933739103385-8444184"],
-  Cell[19787, 441, 232, 4, 62, "Print",
-   CellTags->"Info3933739103385-8444184"],
-  Cell[20022, 447, 365, 6, 75, "Print",
-   CellTags->"Info3933739103385-8444184"],
-  Cell[20390, 455, 367, 6, 75, "Print",
-   CellTags->"Info3933739103385-8444184"],
-  Cell[20760, 463, 377, 6, 75, "Print",
-   CellTags->"Info3933739103385-8444184"],
-  Cell[21140, 471, 332, 6, 74, "Print",
-   CellTags->"Info3933739103385-8444184"],
-  Cell[21475, 479, 363, 6, 74, "Print",
-   CellTags->"Info3933739103385-8444184"],
-  Cell[21841, 487, 337, 6, 74, "Print",
-   CellTags->"Info3933739103385-8444184"],
-  Cell[22181, 495, 313, 5, 74, "Print",
-   CellTags->"Info3933739103385-8444184"]},
- "Info3933739103386-8444184"->{
-  Cell[22497, 502, 313, 5, 74, "Print",
-   CellTags->"Info3933739103386-8444184"],
-  Cell[22813, 509, 313, 5, 73, "Print",
-   CellTags->"Info3933739103386-8444184"],
-  Cell[23129, 516, 372, 6, 74, "Print",
-   CellTags->"Info3933739103386-8444184"]},
- "Info3933739103387-8444184"->{
-  Cell[23504, 524, 315, 5, 74, "Print",
-   CellTags->"Info3933739103387-8444184"],
-  Cell[23822, 531, 316, 5, 75, "Print",
-   CellTags->"Info3933739103387-8444184"],
-  Cell[24141, 538, 370, 6, 75, "Print",
-   CellTags->"Info3933739103387-8444184"],
-  Cell[24514, 546, 409, 7, 87, "Print",
-   CellTags->"Info3933739103387-8444184"]},
- "Info3933739103388-8444184"->{
-  Cell[25856, 570, 238, 4, 62, "Print",
-   CellTags->"Info3933739103388-8444184"],
-  Cell[26097, 576, 214, 4, 62, "Print",
-   CellTags->"Info3933739103388-8444184"],
-  Cell[26314, 582, 209, 4, 62, "Print",
-   CellTags->"Info3933739103388-8444184"],
-  Cell[26526, 588, 240, 4, 64, "Print",
-   CellTags->"Info3933739103388-8444184"],
-  Cell[26769, 594, 254, 5, 64, "Print",
-   CellTags->"Info3933739103388-8444184"]}
+ "Info23739194021-5256903"->{
+  Cell[9921, 189, 232, 4, 60, "Print",
+   CellTags->"Info23739194021-5256903"],
+  Cell[10156, 195, 232, 4, 60, "Print",
+   CellTags->"Info23739194021-5256903"],
+  Cell[10391, 201, 236, 4, 60, "Print",
+   CellTags->"Info23739194021-5256903"],
+  Cell[10630, 207, 236, 4, 60, "Print",
+   CellTags->"Info23739194021-5256903"],
+  Cell[10869, 213, 230, 4, 60, "Print",
+   CellTags->"Info23739194021-5256903"],
+  Cell[11102, 219, 236, 4, 60, "Print",
+   CellTags->"Info23739194021-5256903"]},
+ "Info23739194022-5256903"->{
+  Cell[11341, 225, 263, 5, 60, "Print",
+   CellTags->"Info23739194022-5256903"],
+  Cell[11607, 232, 264, 5, 60, "Print",
+   CellTags->"Info23739194022-5256903"],
+  Cell[11874, 239, 268, 5, 60, "Print",
+   CellTags->"Info23739194022-5256903"],
+  Cell[12145, 246, 268, 5, 60, "Print",
+   CellTags->"Info23739194022-5256903"],
+  Cell[12416, 253, 261, 5, 60, "Print",
+   CellTags->"Info23739194022-5256903"],
+  Cell[12680, 260, 270, 5, 60, "Print",
+   CellTags->"Info23739194022-5256903"],
+  Cell[12953, 267, 226, 4, 64, "Print",
+   CellTags->"Info23739194022-5256903"],
+  Cell[13182, 273, 226, 4, 64, "Print",
+   CellTags->"Info23739194022-5256903"],
+  Cell[13411, 279, 231, 4, 64, "Print",
+   CellTags->"Info23739194022-5256903"],
+  Cell[13645, 285, 234, 4, 64, "Print",
+   CellTags->"Info23739194022-5256903"]},
+ "Info23739194023-5256903"->{
+  Cell[13882, 291, 228, 4, 64, "Print",
+   CellTags->"Info23739194023-5256903"],
+  Cell[14113, 297, 232, 4, 64, "Print",
+   CellTags->"Info23739194023-5256903"],
+  Cell[14348, 303, 234, 4, 60, "Print",
+   CellTags->"Info23739194023-5256903"],
+  Cell[14585, 309, 237, 4, 60, "Print",
+   CellTags->"Info23739194023-5256903"],
+  Cell[14825, 315, 243, 4, 60, "Print",
+   CellTags->"Info23739194023-5256903"],
+  Cell[15071, 321, 240, 4, 60, "Print",
+   CellTags->"Info23739194023-5256903"],
+  Cell[15314, 327, 235, 4, 60, "Print",
+   CellTags->"Info23739194023-5256903"],
+  Cell[15552, 333, 241, 4, 60, "Print",
+   CellTags->"Info23739194023-5256903"],
+  Cell[15796, 339, 260, 5, 60, "Print",
+   CellTags->"Info23739194023-5256903"],
+  Cell[16059, 346, 305, 5, 66, "Print",
+   CellTags->"Info23739194023-5256903"]},
+ "Info23739194024-5256903"->{
+  Cell[16367, 353, 307, 5, 66, "Print",
+   CellTags->"Info23739194024-5256903"],
+  Cell[16677, 360, 313, 5, 66, "Print",
+   CellTags->"Info23739194024-5256903"],
+  Cell[16993, 367, 313, 5, 66, "Print",
+   CellTags->"Info23739194024-5256903"],
+  Cell[17309, 374, 305, 5, 66, "Print",
+   CellTags->"Info23739194024-5256903"],
+  Cell[17617, 381, 311, 5, 66, "Print",
+   CellTags->"Info23739194024-5256903"],
+  Cell[17931, 388, 250, 4, 60, "Print",
+   CellTags->"Info23739194024-5256903"],
+  Cell[18184, 394, 248, 4, 60, "Print",
+   CellTags->"Info23739194024-5256903"],
+  Cell[18435, 400, 256, 5, 60, "Print",
+   CellTags->"Info23739194024-5256903"],
+  Cell[18694, 407, 256, 5, 60, "Print",
+   CellTags->"Info23739194024-5256903"],
+  Cell[18953, 414, 255, 5, 66, "Print",
+   CellTags->"Info23739194024-5256903"],
+  Cell[19211, 421, 255, 5, 66, "Print",
+   CellTags->"Info23739194024-5256903"]},
+ "Info23739194025-5256903"->{
+  Cell[19469, 428, 261, 5, 66, "Print",
+   CellTags->"Info23739194025-5256903"],
+  Cell[19733, 435, 259, 5, 66, "Print",
+   CellTags->"Info23739194025-5256903"],
+  Cell[19995, 442, 232, 4, 64, "Print",
+   CellTags->"Info23739194025-5256903"],
+  Cell[20230, 448, 363, 6, 75, "Print",
+   CellTags->"Info23739194025-5256903"],
+  Cell[20596, 456, 367, 6, 75, "Print",
+   CellTags->"Info23739194025-5256903"],
+  Cell[20966, 464, 373, 6, 75, "Print",
+   CellTags->"Info23739194025-5256903"],
+  Cell[21342, 472, 330, 6, 75, "Print",
+   CellTags->"Info23739194025-5256903"],
+  Cell[21675, 480, 362, 6, 75, "Print",
+   CellTags->"Info23739194025-5256903"],
+  Cell[22040, 488, 337, 6, 75, "Print",
+   CellTags->"Info23739194025-5256903"],
+  Cell[22380, 496, 311, 5, 75, "Print",
+   CellTags->"Info23739194025-5256903"]},
+ "Info23739194026-5256903"->{
+  Cell[22694, 503, 311, 5, 75, "Print",
+   CellTags->"Info23739194026-5256903"],
+  Cell[23008, 510, 313, 5, 75, "Print",
+   CellTags->"Info23739194026-5256903"],
+  Cell[23324, 517, 368, 6, 75, "Print",
+   CellTags->"Info23739194026-5256903"],
+  Cell[23695, 525, 311, 5, 75, "Print",
+   CellTags->"Info23739194026-5256903"],
+  Cell[24009, 532, 312, 5, 75, "Print",
+   CellTags->"Info23739194026-5256903"],
+  Cell[24324, 539, 367, 6, 75, "Print",
+   CellTags->"Info23739194026-5256903"],
+  Cell[24694, 547, 411, 7, 87, "Print",
+   CellTags->"Info23739194026-5256903"],
+  Cell[26062, 571, 236, 4, 62, "Print",
+   CellTags->"Info23739194026-5256903"],
+  Cell[26301, 577, 212, 4, 62, "Print",
+   CellTags->"Info23739194026-5256903"],
+  Cell[26516, 583, 206, 4, 62, "Print",
+   CellTags->"Info23739194026-5256903"],
+  Cell[26725, 589, 238, 4, 64, "Print",
+   CellTags->"Info23739194026-5256903"]},
+ "Info23739194027-5256903"->{
+  Cell[26966, 595, 252, 5, 64, "Print",
+   CellTags->"Info23739194027-5256903"]}
  }
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"Info3933739103377-8444184", 175044, 3363},
- {"Info3933739103378-8444184", 175241, 3368},
- {"Info3933739103379-8444184", 176021, 3387},
- {"Info3933739103380-8444184", 176137, 3390},
- {"Info3933739103381-8444184", 176834, 3407},
- {"Info3933739103382-8444184", 177282, 3418},
- {"Info3933739103383-8444184", 177647, 3427},
- {"Info3933739103384-8444184", 177929, 3434},
- {"Info3933739103385-8444184", 178460, 3447},
- {"Info3933739103386-8444184", 179240, 3466},
- {"Info3933739103387-8444184", 179522, 3473},
- {"Info3933739103388-8444184", 179887, 3482}
+ {"Info23739194021-5256903", 175350, 3366},
+ {"Info23739194022-5256903", 175866, 3379},
+ {"Info23739194023-5256903", 176707, 3400},
+ {"Info23739194024-5256903", 177548, 3421},
+ {"Info23739194025-5256903", 178470, 3444},
+ {"Info23739194026-5256903", 179311, 3465},
+ {"Info23739194027-5256903", 180233, 3488}
  }
 *)
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[580, 22, 583, 12, 798, "Title"],
+Cell[580, 22, 684, 13, 639, "Title"],
 Cell[CellGroupData[{
-Cell[1188, 38, 163, 3, 62, "Input"],
-Cell[1354, 43, 1023, 15, 62, "Output"]
+Cell[1289, 39, 163, 3, 61, "Input"],
+Cell[1455, 44, 1045, 15, 61, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[2414, 63, 227, 4, 62, "Input"],
+Cell[2537, 64, 227, 4, 61, "Input"],
 Cell[CellGroupData[{
-Cell[2666, 71, 999, 14, 36, "Print"],
-Cell[3668, 87, 982, 14, 36, "Print"],
-Cell[4653, 103, 944, 14, 36, "Print"],
-Cell[5600, 119, 929, 13, 36, "Print"],
-Cell[6532, 134, 1202, 21, 36, "Print"],
-Cell[7737, 157, 970, 14, 36, "Print"],
-Cell[8710, 173, 927, 13, 36, "Print"],
-Cell[9640, 188, 232, 4, 60, "Print",
- CellTags->"Info3933739103377-8444184"],
-Cell[9875, 194, 232, 4, 60, "Print",
- CellTags->"Info3933739103377-8444184"],
-Cell[10110, 200, 238, 4, 60, "Print",
- CellTags->"Info3933739103378-8444184"],
-Cell[10351, 206, 238, 4, 60, "Print",
- CellTags->"Info3933739103378-8444184"],
-Cell[10592, 212, 232, 4, 60, "Print",
- CellTags->"Info3933739103378-8444184"],
-Cell[10827, 218, 238, 4, 60, "Print",
- CellTags->"Info3933739103378-8444184"],
-Cell[11068, 224, 265, 5, 60, "Print",
- CellTags->"Info3933739103378-8444184"],
-Cell[11336, 231, 268, 5, 60, "Print",
- CellTags->"Info3933739103378-8444184"],
-Cell[11607, 238, 272, 5, 60, "Print",
- CellTags->"Info3933739103378-8444184"],
-Cell[11882, 245, 270, 5, 60, "Print",
- CellTags->"Info3933739103378-8444184"],
-Cell[12155, 252, 263, 5, 60, "Print",
- CellTags->"Info3933739103378-8444184"],
-Cell[12421, 259, 270, 5, 60, "Print",
- CellTags->"Info3933739103379-8444184"],
-Cell[12694, 266, 230, 4, 62, "Print",
- CellTags->"Info3933739103380-8444184"],
-Cell[12927, 272, 230, 4, 62, "Print",
- CellTags->"Info3933739103380-8444184"],
-Cell[13160, 278, 236, 4, 62, "Print",
- CellTags->"Info3933739103380-8444184"],
-Cell[13399, 284, 234, 4, 62, "Print",
- CellTags->"Info3933739103380-8444184"],
-Cell[13636, 290, 230, 4, 62, "Print",
- CellTags->"Info3933739103380-8444184"],
-Cell[13869, 296, 236, 4, 62, "Print",
- CellTags->"Info3933739103380-8444184"],
-Cell[14108, 302, 237, 4, 60, "Print",
- CellTags->"Info3933739103380-8444184"],
-Cell[14348, 308, 237, 4, 60, "Print",
- CellTags->"Info3933739103380-8444184"],
-Cell[14588, 314, 243, 4, 60, "Print",
- CellTags->"Info3933739103381-8444184"],
-Cell[14834, 320, 242, 4, 60, "Print",
- CellTags->"Info3933739103381-8444184"],
-Cell[15079, 326, 237, 4, 60, "Print",
- CellTags->"Info3933739103381-8444184"],
-Cell[15319, 332, 242, 4, 60, "Print",
- CellTags->"Info3933739103381-8444184"],
-Cell[15564, 338, 262, 5, 60, "Print",
- CellTags->"Info3933739103381-8444184"],
-Cell[15829, 345, 307, 5, 64, "Print",
- CellTags->"Info3933739103382-8444184"],
-Cell[16139, 352, 309, 5, 64, "Print",
- CellTags->"Info3933739103382-8444184"],
-Cell[16451, 359, 313, 5, 64, "Print",
- CellTags->"Info3933739103382-8444184"],
-Cell[16767, 366, 313, 5, 64, "Print",
- CellTags->"Info3933739103382-8444184"],
-Cell[17083, 373, 307, 5, 64, "Print",
- CellTags->"Info3933739103383-8444184"],
-Cell[17393, 380, 315, 5, 64, "Print",
- CellTags->"Info3933739103383-8444184"],
-Cell[17711, 387, 250, 4, 60, "Print",
- CellTags->"Info3933739103383-8444184"],
-Cell[17964, 393, 250, 4, 60, "Print",
- CellTags->"Info3933739103384-8444184"],
-Cell[18217, 399, 258, 5, 60, "Print",
- CellTags->"Info3933739103384-8444184"],
-Cell[18478, 406, 258, 5, 60, "Print",
- CellTags->"Info3933739103384-8444184"],
-Cell[18739, 413, 257, 5, 64, "Print",
- CellTags->"Info3933739103384-8444184"],
-Cell[18999, 420, 257, 5, 64, "Print",
- CellTags->"Info3933739103384-8444184"],
-Cell[19259, 427, 261, 5, 64, "Print",
- CellTags->"Info3933739103384-8444184"],
-Cell[19523, 434, 261, 5, 64, "Print",
- CellTags->"Info3933739103385-8444184"],
-Cell[19787, 441, 232, 4, 62, "Print",
- CellTags->"Info3933739103385-8444184"],
-Cell[20022, 447, 365, 6, 75, "Print",
- CellTags->"Info3933739103385-8444184"],
-Cell[20390, 455, 367, 6, 75, "Print",
- CellTags->"Info3933739103385-8444184"],
-Cell[20760, 463, 377, 6, 75, "Print",
- CellTags->"Info3933739103385-8444184"],
-Cell[21140, 471, 332, 6, 74, "Print",
- CellTags->"Info3933739103385-8444184"],
-Cell[21475, 479, 363, 6, 74, "Print",
- CellTags->"Info3933739103385-8444184"],
-Cell[21841, 487, 337, 6, 74, "Print",
- CellTags->"Info3933739103385-8444184"],
-Cell[22181, 495, 313, 5, 74, "Print",
- CellTags->"Info3933739103385-8444184"],
-Cell[22497, 502, 313, 5, 74, "Print",
- CellTags->"Info3933739103386-8444184"],
-Cell[22813, 509, 313, 5, 73, "Print",
- CellTags->"Info3933739103386-8444184"],
-Cell[23129, 516, 372, 6, 74, "Print",
- CellTags->"Info3933739103386-8444184"],
-Cell[23504, 524, 315, 5, 74, "Print",
- CellTags->"Info3933739103387-8444184"],
-Cell[23822, 531, 316, 5, 75, "Print",
- CellTags->"Info3933739103387-8444184"],
-Cell[24141, 538, 370, 6, 75, "Print",
- CellTags->"Info3933739103387-8444184"],
-Cell[24514, 546, 409, 7, 87, "Print",
- CellTags->"Info3933739103387-8444184"],
-Cell[24926, 555, 927, 13, 36, "Print"],
-Cell[25856, 570, 238, 4, 62, "Print",
- CellTags->"Info3933739103388-8444184"],
-Cell[26097, 576, 214, 4, 62, "Print",
- CellTags->"Info3933739103388-8444184"],
-Cell[26314, 582, 209, 4, 62, "Print",
- CellTags->"Info3933739103388-8444184"],
-Cell[26526, 588, 240, 4, 64, "Print",
- CellTags->"Info3933739103388-8444184"],
-Cell[26769, 594, 254, 5, 64, "Print",
- CellTags->"Info3933739103388-8444184"],
-Cell[27026, 601, 1027, 15, 95, "Print"],
-Cell[28056, 618, 1091, 18, 36, "Print"]
+Cell[2789, 72, 1021, 14, 36, "Print"],
+Cell[3813, 88, 1004, 14, 36, "Print"],
+Cell[4820, 104, 968, 14, 36, "Print"],
+Cell[5791, 120, 951, 13, 36, "Print"],
+Cell[6745, 135, 1224, 21, 36, "Print"],
+Cell[7972, 158, 992, 14, 36, "Print"],
+Cell[8967, 174, 951, 13, 36, "Print"],
+Cell[9921, 189, 232, 4, 60, "Print",
+ CellTags->"Info23739194021-5256903"],
+Cell[10156, 195, 232, 4, 60, "Print",
+ CellTags->"Info23739194021-5256903"],
+Cell[10391, 201, 236, 4, 60, "Print",
+ CellTags->"Info23739194021-5256903"],
+Cell[10630, 207, 236, 4, 60, "Print",
+ CellTags->"Info23739194021-5256903"],
+Cell[10869, 213, 230, 4, 60, "Print",
+ CellTags->"Info23739194021-5256903"],
+Cell[11102, 219, 236, 4, 60, "Print",
+ CellTags->"Info23739194021-5256903"],
+Cell[11341, 225, 263, 5, 60, "Print",
+ CellTags->"Info23739194022-5256903"],
+Cell[11607, 232, 264, 5, 60, "Print",
+ CellTags->"Info23739194022-5256903"],
+Cell[11874, 239, 268, 5, 60, "Print",
+ CellTags->"Info23739194022-5256903"],
+Cell[12145, 246, 268, 5, 60, "Print",
+ CellTags->"Info23739194022-5256903"],
+Cell[12416, 253, 261, 5, 60, "Print",
+ CellTags->"Info23739194022-5256903"],
+Cell[12680, 260, 270, 5, 60, "Print",
+ CellTags->"Info23739194022-5256903"],
+Cell[12953, 267, 226, 4, 64, "Print",
+ CellTags->"Info23739194022-5256903"],
+Cell[13182, 273, 226, 4, 64, "Print",
+ CellTags->"Info23739194022-5256903"],
+Cell[13411, 279, 231, 4, 64, "Print",
+ CellTags->"Info23739194022-5256903"],
+Cell[13645, 285, 234, 4, 64, "Print",
+ CellTags->"Info23739194022-5256903"],
+Cell[13882, 291, 228, 4, 64, "Print",
+ CellTags->"Info23739194023-5256903"],
+Cell[14113, 297, 232, 4, 64, "Print",
+ CellTags->"Info23739194023-5256903"],
+Cell[14348, 303, 234, 4, 60, "Print",
+ CellTags->"Info23739194023-5256903"],
+Cell[14585, 309, 237, 4, 60, "Print",
+ CellTags->"Info23739194023-5256903"],
+Cell[14825, 315, 243, 4, 60, "Print",
+ CellTags->"Info23739194023-5256903"],
+Cell[15071, 321, 240, 4, 60, "Print",
+ CellTags->"Info23739194023-5256903"],
+Cell[15314, 327, 235, 4, 60, "Print",
+ CellTags->"Info23739194023-5256903"],
+Cell[15552, 333, 241, 4, 60, "Print",
+ CellTags->"Info23739194023-5256903"],
+Cell[15796, 339, 260, 5, 60, "Print",
+ CellTags->"Info23739194023-5256903"],
+Cell[16059, 346, 305, 5, 66, "Print",
+ CellTags->"Info23739194023-5256903"],
+Cell[16367, 353, 307, 5, 66, "Print",
+ CellTags->"Info23739194024-5256903"],
+Cell[16677, 360, 313, 5, 66, "Print",
+ CellTags->"Info23739194024-5256903"],
+Cell[16993, 367, 313, 5, 66, "Print",
+ CellTags->"Info23739194024-5256903"],
+Cell[17309, 374, 305, 5, 66, "Print",
+ CellTags->"Info23739194024-5256903"],
+Cell[17617, 381, 311, 5, 66, "Print",
+ CellTags->"Info23739194024-5256903"],
+Cell[17931, 388, 250, 4, 60, "Print",
+ CellTags->"Info23739194024-5256903"],
+Cell[18184, 394, 248, 4, 60, "Print",
+ CellTags->"Info23739194024-5256903"],
+Cell[18435, 400, 256, 5, 60, "Print",
+ CellTags->"Info23739194024-5256903"],
+Cell[18694, 407, 256, 5, 60, "Print",
+ CellTags->"Info23739194024-5256903"],
+Cell[18953, 414, 255, 5, 66, "Print",
+ CellTags->"Info23739194024-5256903"],
+Cell[19211, 421, 255, 5, 66, "Print",
+ CellTags->"Info23739194024-5256903"],
+Cell[19469, 428, 261, 5, 66, "Print",
+ CellTags->"Info23739194025-5256903"],
+Cell[19733, 435, 259, 5, 66, "Print",
+ CellTags->"Info23739194025-5256903"],
+Cell[19995, 442, 232, 4, 64, "Print",
+ CellTags->"Info23739194025-5256903"],
+Cell[20230, 448, 363, 6, 75, "Print",
+ CellTags->"Info23739194025-5256903"],
+Cell[20596, 456, 367, 6, 75, "Print",
+ CellTags->"Info23739194025-5256903"],
+Cell[20966, 464, 373, 6, 75, "Print",
+ CellTags->"Info23739194025-5256903"],
+Cell[21342, 472, 330, 6, 75, "Print",
+ CellTags->"Info23739194025-5256903"],
+Cell[21675, 480, 362, 6, 75, "Print",
+ CellTags->"Info23739194025-5256903"],
+Cell[22040, 488, 337, 6, 75, "Print",
+ CellTags->"Info23739194025-5256903"],
+Cell[22380, 496, 311, 5, 75, "Print",
+ CellTags->"Info23739194025-5256903"],
+Cell[22694, 503, 311, 5, 75, "Print",
+ CellTags->"Info23739194026-5256903"],
+Cell[23008, 510, 313, 5, 75, "Print",
+ CellTags->"Info23739194026-5256903"],
+Cell[23324, 517, 368, 6, 75, "Print",
+ CellTags->"Info23739194026-5256903"],
+Cell[23695, 525, 311, 5, 75, "Print",
+ CellTags->"Info23739194026-5256903"],
+Cell[24009, 532, 312, 5, 75, "Print",
+ CellTags->"Info23739194026-5256903"],
+Cell[24324, 539, 367, 6, 75, "Print",
+ CellTags->"Info23739194026-5256903"],
+Cell[24694, 547, 411, 7, 87, "Print",
+ CellTags->"Info23739194026-5256903"],
+Cell[25108, 556, 951, 13, 36, "Print"],
+Cell[26062, 571, 236, 4, 62, "Print",
+ CellTags->"Info23739194026-5256903"],
+Cell[26301, 577, 212, 4, 62, "Print",
+ CellTags->"Info23739194026-5256903"],
+Cell[26516, 583, 206, 4, 62, "Print",
+ CellTags->"Info23739194026-5256903"],
+Cell[26725, 589, 238, 4, 64, "Print",
+ CellTags->"Info23739194026-5256903"],
+Cell[26966, 595, 252, 5, 64, "Print",
+ CellTags->"Info23739194027-5256903"],
+Cell[27221, 602, 1051, 15, 95, "Print"],
+Cell[28275, 619, 1113, 18, 36, "Print"]
 }, Open  ]]
 }, Open  ]],
-Cell[29174, 640, 188, 3, 46, "Text"],
+Cell[29415, 641, 188, 3, 46, "Text"],
 Cell[CellGroupData[{
-Cell[29387, 647, 2061, 59, 195, "Input"],
-Cell[31451, 708, 50912, 908, 388, "Output"]
+Cell[29628, 648, 2061, 59, 135, "Input"],
+Cell[31692, 709, 50933, 909, 388, "Output"]
 }, Open  ]],
-Cell[82378, 1619, 181, 3, 46, "Text"],
+Cell[82640, 1621, 181, 3, 46, "Text"],
 Cell[CellGroupData[{
-Cell[82584, 1626, 1991, 58, 197, "Input"],
-Cell[84578, 1686, 66142, 1159, 373, "Output"]
+Cell[82846, 1628, 1991, 58, 166, "Input"],
+Cell[84840, 1688, 66166, 1160, 373, "Output"]
 }, Open  ]],
-Cell[150735, 2848, 210, 4, 46, "Text"],
+Cell[151021, 2851, 210, 4, 46, "Text"],
 Cell[CellGroupData[{
-Cell[150970, 2856, 2290, 63, 223, "Input"],
-Cell[153263, 2921, 21326, 425, 378, "Output"]
+Cell[151256, 2859, 2290, 63, 192, "Input"],
+Cell[153549, 2924, 21346, 425, 412, "Output"]
 }, Open  ]]
 }, Open  ]]
 }
